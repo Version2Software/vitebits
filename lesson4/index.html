@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One</title>
+    <script type="module" src="/src/ProjectOne.js"></script>
+    <script type="module" src="/src/ProjectTwo.ts"></script>
+    <script type="module" src="/src/TimerComponent.ts"></script>
+</head>
+<body>
+<h1>Using the ProjectOne Component</h1>
+
+<!-- The default 'name' will be "world" -->
+<project-one></project-one>
+
+<!-- Override the 'name' attribute -->
+<project-one name="Vite User"></project-one>
+
+<!-- The default 'name' will be "world" -->
+<project-two></project-two>
+
+<!-- Override the 'name' attribute -->
+<project-two name="Vite User"></project-two>
+
+<timer-component></timer-component>
+
+<timer-component duration="15"></timer-component>
+</body>
+</html>

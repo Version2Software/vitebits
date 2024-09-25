@@ -1,0 +1,1 @@
+The duration always shows 30 until I press start stop

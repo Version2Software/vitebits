@@ -1,0 +1,1 @@
+Now convert the Javascript into Typescript. Also use the Lit 3 API and decorators to rewrite the component into a more concise format. Rename the file to ProjectTwo.ts in the src directory. No explanations. Just the code please.
