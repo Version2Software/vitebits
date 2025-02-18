@@ -1,0 +1,22 @@
+{
+  "name": "@YOUR_NPM_USERNAME/v2-component-lib",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": ["web component", "component", "browser"],
+  "author": "YOUR_NPM_USERNAME",
+  "license": "MIT",
+  "description": "V2 component library",
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "lit": "^3.2.1"
+  }
+}

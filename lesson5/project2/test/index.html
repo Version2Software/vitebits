@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V2 Component Library Example</title>
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .loading-example {
+            width: 4rem;
+            height: 4rem;
+        }
+    </style>
+
+    <script type="module" src="https://unpkg.com/@YOUR_NPM_USERNAME/v2-component-lib"></script>
+</head>
+<body>
+    <v2-converter></v2-converter>
+    <v2-button>Primary</v2-button>
+    <v2-button variant="danger" onclick="v2-click">Danger</v2-button>
+    <v2-button loading class="loading-example"></v2-button>
+</body>
+</html>

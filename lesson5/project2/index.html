@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V2 Component Library Example</title>
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+        v2-button:hover {
+            --v2-button-font-size: 1.5rem;  /* exposed in v2-button component */
+        }
+        v2-converter {
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+        }
+       .button-container {
+             display: flex;
+             justify-content: center;
+             gap: 10px;
+         }
+    </style>
+
+    <script type="module">
+        import {V2Converter, V2Button} from "./src/index.js";
+        const buttonComponent = document.querySelector('v2-button'); // Note: this only selects first button
+        buttonComponent.addEventListener('v2-click', (e) => {
+            window.alert('Button clicked:', e.detail); // Receive any custom data in e.detail
+        });
+    </script>
+</head>
+
+<body>
+    <v2-converter></v2-converter>
+    <div class="button-container">
+        <v2-button>Primary</v2-button>
+        <v2-button variant="secondary">Primary</v2-button>
+        <v2-button variant="danger">Danger</v2-button>
+        <v2-button loading>Loading...</v2-button>
+    </div>
+</body>
+</html>
