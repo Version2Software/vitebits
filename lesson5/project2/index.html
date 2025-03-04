@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>V2 Component Library Example</title>
+    <title>Project2 Component Library Example</title>
 
     <style>
         html, body {
@@ -23,7 +23,7 @@
     </style>
 
     <script type="module">
-        import {V2Converter, V2Button} from "./src/index.js";
+        import {V2Converter, V2Button} from "./src/index.ts";
         const buttonComponent = document.querySelector('v2-button'); // Note: this only selects first button
         buttonComponent.addEventListener('v2-click', (e) => {
             window.alert('Button clicked:', e.detail); // Receive any custom data in e.detail

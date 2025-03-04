@@ -1,4 +1,4 @@
-# v2-component-lib
+# project2-component-lib
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -7,7 +7,7 @@ laboris nisi ut aliquip ex ea commodo consequat.
 ## Installation
 
 ```bash
-npm install @YOUR_NPM_USERNAME/v2-component-lib
+npm install @YOUR_NPM_USERNAME/project2-component-lib
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ npm install @YOUR_NPM_USERNAME/v2-component-lib
         }
     </style>
 
-    <script type="module" src="https://unpkg.com/@YOUR_NPM_USERNAME/v2-component-lib"></script>
+    <script type="module" src="https://unpkg.com/@YOUR_NPM_USERNAME/project2-component-lib"></script>
 </head>
 <body>
     <v2-converter></v2-converter>
