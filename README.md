@@ -1,5 +1,26 @@
 # Welcome to Vite Bits Tutorials
 
+## Lesson 2
+
+### Installing dependencies
+<pre><code>
+cd lesson4
+npm i
+</code></pre>
+
+### Running dev
+
+<pre><code>
+npx vite
+</code></pre>
+
+### Building for production
+<pre><code>
+npx vite build
+</code></pre>
+
+Production files will be in the dist directory.
+
 ## Lesson 4
 
 The ChatGPT prompts for lesson4 are in the lesson4/prompts directory.
