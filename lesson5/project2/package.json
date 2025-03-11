@@ -2,7 +2,13 @@
   "name": "@YOUR_NPM_USERNAME/project2-component-lib",
   "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.es.js",
   "module": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js"
+    }
+  },
   "files": [
     "dist"
   ],
